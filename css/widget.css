@@ -1,0 +1,11 @@
+.wpaa_widget input[disabled=""] {
+  background:#F7F7F7;
+  color:white;
+  cursor:default;
+}
+
+.wpaa_widget input[disabled="disabled"] {
+  background:#F7F7F7;
+  color:white;
+  cursor:default;
+}

@@ -1,0 +1,645 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wordpress-amazon-associate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-10 13:47-0500\n"
+"PO-Revision-Date: 2010-12-10 13:50-0500\n"
+"Last-Translator: Matthew Denton <matt@mdbitz.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_n;__\n"
+"X-Poedit-Basepath: c:/users/mdbitz/svn/WordPress/WordPress Amazon Associate/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: AmazonWidget/.\n"
+"X-Poedit-SearchPath-2: Widget/Amazon/.\n"
+"X-Poedit-SearchPath-3: WPAA/Module/.\n"
+
+#: WPAA.php:637
+msgid "<strong>Success:</strong> Settings successfully updated."
+msgstr ""
+
+#: WPAA.php:648
+msgid "Plugin is not configured! Please correct in the"
+msgstr ""
+
+#: WPAA.php:648
+msgid "settings page"
+msgstr ""
+
+#: WPAA.php:758
+msgid "Settings"
+msgstr ""
+
+#: WPAA.php:768
+msgid "Primary"
+msgstr ""
+
+#: WPAA.php:768
+msgid "Amazon Locale"
+msgstr ""
+
+#: WPAA.php:768
+msgid "Associate Tag"
+msgstr ""
+
+#: WPAA.php:768
+msgid "Active"
+msgstr ""
+
+#: WPAA.php:769
+msgid "United States"
+msgstr ""
+
+#: WPAA.php:770
+msgid "Canada"
+msgstr ""
+
+#: WPAA.php:771
+msgid "China"
+msgstr ""
+
+#: WPAA.php:772
+msgid "Germany"
+msgstr ""
+
+#: WPAA.php:773
+msgid "France"
+msgstr ""
+
+#: WPAA.php:774
+msgid "Italy"
+msgstr ""
+
+#: WPAA.php:775
+msgid "Japan"
+msgstr ""
+
+#: WPAA.php:776
+msgid "United Kingdom"
+msgstr ""
+
+#: WPAA.php:779
+msgid "Enable use of Author specific Associate Tags?"
+msgstr ""
+
+#: WPAA.php:780
+msgid "Enable Geo Localization?"
+msgstr ""
+
+#: WPAA.php:784
+msgid "is required for Geo Localization"
+msgstr ""
+
+#: WPAA.php:787
+msgid "Support Us, use our Associate id for"
+msgstr ""
+
+#: WPAA.php:787
+msgid "of links"
+msgstr ""
+
+#: WPAA.php:788
+#: WPAA.php:800
+#: WPAA.php:825
+#: WPAA.php:835
+msgid "Update Settings"
+msgstr ""
+
+#: WPAA.php:790
+msgid "Not an Amazon Associate?"
+msgstr ""
+
+#: WPAA.php:790
+msgid "Join today by visiting the amazon associate website for your desired locale by clicking the above locale names"
+msgstr ""
+
+#: WPAA.php:792
+msgid "Amazon Associate Settings"
+msgstr ""
+
+#: WPAA.php:796
+msgid "Access Key:"
+msgstr ""
+
+#: WPAA.php:797
+msgid "Secret Key:"
+msgstr ""
+
+#: WPAA.php:798
+msgid "Validate Credentials"
+msgstr ""
+
+#: WPAA.php:802
+msgid "Don't have an Amazon Web Services account?"
+msgstr ""
+
+#: WPAA.php:802
+msgid "Sign-up for your free account today at"
+msgstr ""
+
+#: WPAA.php:804
+msgid "Amazon Web Services Settings"
+msgstr ""
+
+#: WPAA.php:808
+msgid "Enable Product Previews:"
+msgstr ""
+
+#: WPAA.php:810
+msgid "* Please note that this feature may not work on all themes, this is a bug with the amazon code itself as a fix for some theme/plugin combinations check this box."
+msgstr ""
+
+#: WPAA.php:810
+msgid " If checked jQuery will be remapped to a new object prior to inserting the amazon code than remapped to $ after."
+msgstr ""
+
+#: WPAA.php:811
+msgid "Update Settings &raquo;"
+msgstr ""
+
+#: WPAA.php:813
+msgid "The Amazon Product Preview enhances your site content by adding product preview popups to qualified amazon links. Full information can be found on the"
+msgstr ""
+
+#: WPAA.php:813
+msgid "Amazon Associate Website"
+msgstr ""
+
+#: WPAA.php:815
+msgid "Amazon Product Preview Settings"
+msgstr ""
+
+#: WPAA.php:819
+msgid "Amazon Carousel:"
+msgstr ""
+
+#: WPAA.php:820
+msgid "Amazon MP3 Clips:"
+msgstr ""
+
+#: WPAA.php:821
+msgid "Amazon My Favorites:"
+msgstr ""
+
+#: WPAA.php:822
+msgid "Amazon Search:"
+msgstr ""
+
+#: WPAA.php:823
+msgid "Amazon Omakase:"
+msgstr ""
+
+#: WPAA.php:827
+msgid "Don't need a provided widget? Then feel free to disable it here so your Widget menu is a little less cluttered."
+msgstr ""
+
+#: WPAA.php:829
+msgid "Amazon Widget Settings"
+msgstr ""
+
+#: WPAA.php:833
+msgid "Enable Associate Filter:"
+msgstr ""
+
+#: WPAA.php:837
+msgid "The Associate Filter will enable replacement of static Amazon links Associate Tags with your specified associate id."
+msgstr ""
+
+#: WPAA.php:839
+msgid "Amazon Associate Filter Settings"
+msgstr ""
+
+#: WPAA.php:873
+msgid "Author:"
+msgstr ""
+
+#: WPAA.php:874
+msgid "Project Website:"
+msgstr ""
+
+#: WPAA.php:875
+msgid "Version:"
+msgstr ""
+
+#: WPAA.php:876
+msgid "Last Updated:"
+msgstr ""
+
+#: WPAA.php:878
+msgid "About this Plugin"
+msgstr ""
+
+#: WPAA.php:881
+msgid "Rate this plugin"
+msgstr ""
+
+#: WPAA.php:881
+msgid "on WordPress"
+msgstr ""
+
+#: WPAA.php:882
+msgid "Notify"
+msgstr ""
+
+#: WPAA.php:882
+msgid "WordPress users this plugin works with your WordPress version"
+msgstr ""
+
+#: WPAA.php:895
+msgid "User Feedback"
+msgstr ""
+
+#: WPAA.php:906
+msgid "Show your support!"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:45
+#: Widget/Amazon/Banner.php:50
+msgid "Amazon Banner Widget"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:95
+msgid "Basic Properties"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:97
+msgid "Widget Title:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:98
+msgid "Width:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:99
+msgid "Height:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:100
+msgid "Market Place:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:102
+msgid "Widget Options"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:104
+msgid "Title:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:106
+msgid "Widget Type"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:107
+msgid "Search Index:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:108
+msgid "Browse Node:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:109
+msgid "ASIN:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:110
+msgid "Keywords:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:111
+msgid "Shuffle Products:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:112
+msgid "Show Border:"
+msgstr ""
+
+#: Widget/Amazon/Banner.php:124
+msgid "Preview Widget"
+msgstr ""
+
+#: Widget/Amazon/Carousel.php:45
+#: Widget/Amazon/Carousel.php:50
+msgid "Amazon Carousel Widget"
+msgstr ""
+
+#: Widget/Amazon/Carousel.php:137
+#: Widget/Amazon/MP3Clips.php:128
+msgid "Widget Type:"
+msgstr ""
+
+#: Widget/Amazon/MP3Clips.php:45
+#: Widget/Amazon/MP3Clips.php:50
+msgid "Amazon MP3 Clips Widget"
+msgstr ""
+
+#: Widget/Amazon/MP3Clips.php:132
+msgid "Shuffle Tracks:"
+msgstr ""
+
+#: Widget/Amazon/MP3Clips.php:133
+msgid "Max Results:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:45
+#: Widget/Amazon/MyFavorites.php:50
+msgid "Amazon My Favorites Widget"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:174
+#: Widget/Amazon/Search.php:164
+msgid "Columns:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:175
+#: Widget/Amazon/Search.php:165
+msgid "Rows:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:176
+#: Widget/Amazon/Search.php:166
+msgid "Show Image:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:177
+#: Widget/Amazon/Search.php:167
+msgid "Show Price:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:178
+#: Widget/Amazon/Search.php:168
+msgid "Show Rating:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:179
+#: Widget/Amazon/Search.php:169
+msgid "Design Options"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:181
+#: Widget/Amazon/Search.php:171
+msgid "Design:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:182
+#: Widget/Amazon/Search.php:172
+msgid "Color Theme:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:183
+#: Widget/Amazon/Search.php:173
+msgid "Outer Background Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:184
+#: Widget/Amazon/Search.php:174
+msgid "Inner Background Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:185
+#: Widget/Amazon/Omakase.php:132
+#: Widget/Amazon/Search.php:175
+msgid "Background Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:186
+#: Widget/Amazon/Omakase.php:131
+#: Widget/Amazon/Search.php:176
+msgid "Border Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:187
+#: Widget/Amazon/Search.php:177
+msgid "Header Text Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:188
+#: Widget/Amazon/Search.php:178
+msgid "Linked Text Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:189
+#: Widget/Amazon/Search.php:179
+msgid "Body Text Color:"
+msgstr ""
+
+#: Widget/Amazon/MyFavorites.php:190
+#: Widget/Amazon/Search.php:180
+msgid "Rounded Corners:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:45
+#: Widget/Amazon/Omakase.php:50
+msgid "Amazon Omakase Widget"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:120
+msgid "Size:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:121
+msgid "Locale:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:125
+msgid "Logo Display:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:126
+msgid "Product Images:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:127
+msgid "Link Target:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:128
+msgid "Prices:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:129
+msgid "Border:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:130
+msgid "Amazon Discount:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:133
+msgid "Details Text Color:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:134
+msgid "Link Color:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:135
+msgid "Price Color:"
+msgstr ""
+
+#: Widget/Amazon/Omakase.php:136
+msgid "Amazon.com Text Color:"
+msgstr ""
+
+#: Widget/Amazon/Search.php:45
+#: Widget/Amazon/Search.php:50
+msgid "Amazon Search Widget"
+msgstr ""
+
+#: Widget/Amazon/Search.php:163
+msgid "Default Search Term:"
+msgstr ""
+
+#: WPAA/Module/Ad.php:158
+msgid "Banner Ads"
+msgstr ""
+
+#: WPAA/Module/Ad.php:168
+#: WPAA/Module/Compliance.php:310
+msgid "Are you already using a different WordPress Plugin but would like to use"
+msgstr ""
+
+#: WPAA/Module/Ad.php:168
+#: WPAA/Module/Compliance.php:310
+msgid " Don't worry about modifying your existing pages/posts and templates instead you can simply enable compliance with their ShortCode by clicking the appropriate checkboxes."
+msgstr ""
+
+#: WPAA/Module/Ad.php:177
+#: WPAA/Module/Compliance.php:319
+msgid "Amazon Plugin ShortCode Compliance"
+msgstr ""
+
+#: WPAA/Module/Cache.php:139
+#: WPAA/Module/Compliance.php:162
+msgid "<strong>Success:</strong> Settings updated successfully."
+msgstr ""
+
+#: WPAA/Module/Cache.php:149
+msgid "<strong>Error:</strong> Please enter a valid integer for Expiration Days option."
+msgstr ""
+
+#: WPAA/Module/Cache.php:239
+msgid "Cache"
+msgstr ""
+
+#: WPAA/Module/Cache.php:249
+msgid " comes built with an advanced product cache. We minimize the calls your website makes to the Advertising Product API by caching responses in a local database so that your users get their content faster. Please use the below settings to configure if the cache is used and for how long data is valid."
+msgstr ""
+
+#: WPAA/Module/Cache.php:251
+msgid "is Enabled?"
+msgstr ""
+
+#: WPAA/Module/Cache.php:252
+msgid "Products in cache will expire after _ days?"
+msgstr ""
+
+#: WPAA/Module/Cache.php:254
+msgid "Entering 0 will mean that products in the cache do not expire."
+msgstr ""
+
+#: WPAA/Module/Cache.php:258
+msgid "Product Cache Settings"
+msgstr ""
+
+#: WPAA/Module/Compliance.php:187
+#: WPAA/Module/Compliance.php:216
+msgid "<strong>Success:</strong> Amazon Associate settings were successfully imported from"
+msgstr ""
+
+#: WPAA/Module/Compliance.php:299
+msgid "Plugin Compliance"
+msgstr ""
+
+#: WPAA/Module/Compliance.php:325
+msgid "If you have configured your Amazon Associate Tags(Ids) with any of the following plugins, you can import them using the buttons below."
+msgstr ""
+
+#: WPAA/Module/Compliance.php:333
+#: WPAA/Module/Compliance.php:342
+msgid "Import"
+msgstr ""
+
+#: WPAA/Module/Compliance.php:348
+msgid "Import Plugin Settings"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:257
+msgid "<strong>Error:</strong> Failure while downloading remote file form ip2nation, please try to re-install."
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:263
+msgid "<strong>Error:</strong> Failure to save content locally, please try to re-install."
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:276
+msgid "<strong>Error:</strong> Failure to unzip archive, please try to re-install"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:291
+#, php-format
+msgid "<strong>Error:</strong> ip2nation archive downloaded but failed to install due to error: [%s]"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:298
+msgid "<strong>Success:</strong> ip2nation database installed successfully."
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:391
+msgid "ip2nation"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:406
+msgid "Installed Version:"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:408
+msgid "Available Version:"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:413
+msgid "Update"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:417
+msgid "The ip2nation database is not installed. If you want to enable link localization by IP Address please install the database by using the <em>install</em> button below."
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:418
+msgid "Install"
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:421
+msgid "ip2nation is utilized to lookup a users country by their ip address. If installed you can configure the WordPress Amazon Associate plugin to localize links automatically for your website visitors."
+msgstr ""
+
+#: WPAA/Module/IP2Nation.php:423
+msgid "ip2nation status"
+msgstr ""
+
+#: WPAA/Module/MultiUser.php:110
+msgid "Amazon Assoicate Settings"
+msgstr ""
+
+#: WPAA/Module/MultiUser.php:125
+msgid "Gemany"
+msgstr ""
+
+#: WPAA/Module/QuickLinks.php:105
+#: WPAA/Module/QuickLinks.php:107
+msgid "Amazon Quick Links"
+msgstr ""
+
+#: WPAA/Module/QuickLinks.php:114
+msgid "Search Term:"
+msgstr ""
+
+#: WPAA/Module/QuickLinks.php:122
+msgid "Search Results:"
+msgstr ""
+

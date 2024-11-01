@@ -1,0 +1,176 @@
+<h1>Amazon Product API PHP Wrapper Library Changelog</h1>
+<p>This is the changelog of the AmazonProductAPI library for PHP. The current available release of the library can be found <a href="http://labs.mdbitz.com/amazon-product-api/downloads/">here</a></p>
+<hr/>
+<div class="entry">
+    <h2>Version: <b>1.1.0</b> Released 05/03/2012</h2>
+    <div class="comment">Minor Release Version - Support for Additional Locales</div>
+    <ul>
+        <li>China (CN) Support Added.</li>
+        <li>Italy (IT) Support Added.</li>
+        <li>Italy (IT) Support Added.</li>
+        <li>Updated API Version to 2011-08-01.</li>
+        <li>Added BrowseNodeLookupError Handling.</li>
+        <li>Added Fix for correcting for Server Time discrepencies</li>
+    </ul>
+</div>
+<div class="entry">
+    <h2>Version: <b>1.0.1</b> Released 11-19-2010</h2>
+    <div class="comment">Bug Fix Version - correction to locale validation logic and mapping of Japan to .jp domain</div>
+    <ul>
+        <li>Correction to setLocale method validation logic.</li>
+        <li>Domain map udpated from co.jp to jp for Japan Locale</li>
+    </ul>
+</div>
+<div class="entry">
+    <h2>Version: <b>1.0.0</b> Released: 11-07-2010</h2>
+    <div class="comment">Official Release - Unit Testing and general bug fixes throughout the library.</div>
+    <ul>
+        <li>Strict Mode - enabled support of Strict mode which will throw errors on invalid request.</li>
+        <li>toJSON bug fix - fix of bug that caused invalid JSON when string contained double quotes.</li>
+        <li>Validatiy Interfaces
+            <ul>
+                <li>AmazonProduct_iValid - Valiate object</li>
+                <li>AmazonProduct_iValidConstant - Validate string is a constant</li>
+            </ul>
+        </li>
+        <li>Search API - additional SearchIndex added to api to account for EAN,UPC,ISBN, and SKU search requriements</li>
+        <li>SearchIndex :: SupportSearchIndexes - convenience method to get associated array of supported search indexes.</li>
+        <li>Locales :: SupportedLocales - convenience method to get associated array of supported locales</li>
+        <li>Condition :: Collectible - added missing Collectible constant</li>
+        <li>Default Locale was incorrectly set to <em>us</em> not <em>US</em></li>
+        <li>ResponseGroup :: CartTopSellers - typo correction to constant</li>
+        <li>Unit Testing - implemented through phpUnit
+            <ul>
+                <li>ItemLookup</li>
+                <li>SimilarityLookup</li>
+                <li>ItemSearch</li>
+                <li>BrowseNodeLookup</li>
+                <li>Constant Classes</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="entry">
+    <h2>Version: <b>0.3.0</b> Released: 10-23-2010</h2>
+    <div class="comment">Implementation of convienence methods, JSON formatting, and support for BrowseNodeLookup operation of the Amazon Product Advertising API.</div>
+    <ul>
+        <li>Code re-factor of search to execute in <em>AmazonProductAPI</em> class.</li>
+        <li>JSON format support by implementing <em>toJSON</em> method</li>
+        <li>Support for <em>BrowseNodeLookup</em> operation
+            <ul>
+                <li>Implementation of <em>AmazonProduct_TopItemSet</em></li>
+                <li>Updated xml parsing of <em>AmazonProduct_BrowseNode</em></li>
+            </ul>
+        </li>
+        <li>Typo corrections in <em>AmazonProduct_SearchIndex</em> SHOE and AUTOMOTIVE constants</li>
+        <li><em>ItemLookup</em> operation API methods implemented
+            <ul>
+                <li>lookup</li>
+                <li>lookupByASIN</li>
+                <li>lookupByEAN</li>
+                <li>lookupByISBN</li>
+                <li>lookupBySKU</li>
+                <li>lookupBYUPC</li>
+            </ul>
+        </li>
+        <li><em>ItemSearch</em> operation API methods implemented
+            <ul>
+                <li>search</li>
+                <li>searchAll</li>
+                <li>searchApparel</li>
+                <li>searchAutomotive</li>
+                <li>searchBooks</li>
+                <li>... etc</li>
+            </ul>
+        </li>
+        <li><em>SimilarityLookup</em> operation API methods implemented
+            <ul>
+                <li>similarityLookup</li>
+            </ul>
+        </li>
+        <li><em>BrowseNodeLookup</em> operation API methods implemented
+            <ul>
+                <li>browseNodeLookup</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="entry">
+     <h2>Version: <b>0.2.0</b> Released: 10-18-2010</h2>
+    <div class="comment">Support for SimilarityLookup operation, result iteration and general code cleanup and re-factor of the APaPi library.</div>
+    <ul>
+        <li>Code re-factor of cUrl and processing functionality from AmazonProductAPI into AmazonProduct_Request</li>
+        <li>Implementation of result iteration
+            <ul>
+                <li>AmazonProduct_Iterator &#8211; defines iterator to loop throough all results</li>
+                <li>AmazonProduct_Result->getIterator() &#8211; implements IteratorAggregate to obtain result iterator</li>
+            </ul>
+        <li>Removal of Header variables from result</li>
+        <li>Conversion of parseXML methods to utilize updated constructor to reduce lines of code.</li>
+        <li>Parameter name correction of Local to Locale in AmazonProduct_Locale</li>
+        <li>Enhanced processing to handle request error messages</li>
+        <li>Bug Fix &#8211; ResponseGroup.php had it&#8217;s class defined as AmazonProduct_ResultGroup instead of AmazonProduct_ResponseGroup</li>
+        <li>Creation of supporting Amazon Constant Classes
+            <ul>
+                <li>AmazonProduct_Condition</li>
+                <li>AmazonProduct_SimilarityType</li>
+
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="entry">
+    <h2>Version: <b>0.1.0</b> Released: 10-15-2010</h2>
+    <div class="log">
+        <div class="comment">Initial Development Version of the AmazonProductAPI. Proof of concept development release containing base classes for performing a generic <em>ItemSearch</em> or <em>ItemLookup</em> from the Amazon Product API</div>
+        <ul>
+            <li>AmazonProductAPI - main class containing authentication keys and support functions</li>
+            <li>Proof of Concept develpment of request and response objects
+                <ul>
+                    <li>AmazonProduct_Request</li>
+                    <li>AmazonProduct_Response/li>
+                </ul>
+            </li>
+            <li>Initial build out of data type objects
+                <ul>
+                    <li>AmazonProduct_Abstract</li>
+                    <li>AmazonProduct_Accessory</li>
+                    <li>AmazonProduct_AlternateVersion</li>
+                    <li>AmazonProduct_AvailabilityAttributes</li>
+                    <li>AmazonProduct_BrowseNode</li>
+                    <li>AmazonProduct_Collection</li>
+                    <li>AmazonProduct_CollectionItem</li>
+                    <li>AmazonProduct_CustomerReviews</li>
+                    <li>AmazonProduct_EditorialReview</li>
+                    <li>AmazonProduct_Error</li>
+                    <li>AmazonProduct_Image</li>
+                    <li>AmazonProduct_ImageSet</li>
+                    <li>AmazonProduct_Item</li>
+                    <li>AmazonProduct_ItemAttributes</li>
+                    <li>AmazonProduct_ItemLink</li>
+                    <li>AmazonProduct_Language</li>
+                    <li>AmazonProduct_ListmaniaList</li>
+                    <li>AmazonProduct_Locale</li>
+                    <li>AmazonProduct_Merchant</li>
+                    <li>AmazonProduct_Offer</li>
+                    <li>AmazonProduct_OfferAttributes</li>
+                    <li>AmazonProduct_OfferListing</li>
+                    <li>AmazonProduct_OfferSummary</li>
+                    <li>AmazonProduct_Offers</li>
+                    <li>AmazonProduct_Price</li>
+                    <li>AmazonProduct_QuantityRestriction</li>
+                    <li>AmazonProduct_SimilarProduct</li>
+                </ul>
+            </li>
+            <li>Creation of Amazon Constant Classes
+                <ul>
+                    <li>AmazonProduct_IdType</li>
+                    <li>AmazonProduct_Locale</li>
+                    <li>AmazonProduct_Operation</li>
+                    <li>AmazonProduct_ResponseGroup</li>
+                    <li>AmazonProduct_SearchIndex</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
